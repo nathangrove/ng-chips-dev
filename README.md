@@ -1,6 +1,9 @@
 # ng-chips
 This has been created with Angular-CLI 6.0.3's library support
 
+## Using
+```npm install git+https://github.com/nathangrove/ng-chips.git```
+
 ### app.module.ts
 
     import { BrowserModule } from  '@angular/platform-browser';
@@ -100,3 +103,13 @@ HTML Element attributes and descriptions
       [disabled]="false" <!-- Boolean indicating if disabled/readonly -->
     ></ng-chips>
 
+
+
+## Development
+ ### Setup
+    $ ng new ng-chips-dev  
+    $ ng generate library ng-chips  
+    $ rm -rf projects/ng-chips  
+    $ git clone https://github.com/nathangrove/ng-chips-dev.git ng-chips  
+  ### Build
+    $ ng build ng-chips
