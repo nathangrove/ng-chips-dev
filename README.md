@@ -108,6 +108,7 @@ HTML Element attributes and descriptions
 ## Development
  ### Setup
     $ ng new ng-chips-dev  
+    $ cd ng-chips-dev
     $ ng generate library ng-chips  
     $ rm -rf projects/ng-chips  
     $ git clone https://github.com/nathangrove/ng-chips-dev.git ng-chips  
