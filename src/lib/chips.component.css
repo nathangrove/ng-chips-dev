@@ -1,0 +1,91 @@
+#ng-chips-wrapper {
+  position: relative;
+  line-height: 1;
+  min-height: 50px;
+  cursor: pointer;
+  border: 1px solid #d2d2d2;
+  padding: 5px;
+  border-radius: 2px;
+  /* IE6 */
+  /* IE7 */ }
+  #ng-chips-wrapper .placeholder {
+    float: left;
+    color: grey;
+    font-size: 20px;
+    margin-left: 5px; }
+  #ng-chips-wrapper .chipit {
+    float: left;
+    background-color: #d6d6d6;
+    border-radius: 1000px;
+    margin: 3px;
+    font-size: 13px;
+    height: 32px;
+    padding-left: 12px; }
+    #ng-chips-wrapper .chipit .value {
+      float: left;
+      margin-right: 4px;
+      margin-top: 9px; }
+      #ng-chips-wrapper .chipit .value.disabled {
+        margin-right: 12px; }
+    #ng-chips-wrapper .chipit .remove {
+      text-align: center;
+      float: left;
+      background-color: #bdbdbd;
+      color: white;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      margin: 4px;
+      padding-top: 2px;
+      font-size: 18px; }
+    #ng-chips-wrapper .chipit:hover {
+      background-color: #888888;
+      color: white; }
+      #ng-chips-wrapper .chipit:hover .remove {
+        background-color: white;
+        color: #888888; }
+  #ng-chips-wrapper .addition {
+    float: left;
+    margin-top: 12px;
+    color: grey;
+    font-size: 13px; }
+  #ng-chips-wrapper .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0; }
+  #ng-chips-wrapper * html .clearfix {
+    zoom: 1; }
+  #ng-chips-wrapper *:first-child + html .clearfix {
+    zoom: 1; }
+
+#ng-chips-selector {
+  background-color: white;
+  z-index: 1000;
+  position: absolute;
+  border: 1px solid #c9c9c9;
+  padding: 3px;
+  min-width: 300px;
+  max-height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+  #ng-chips-selector .search {
+    width: 90%;
+    margin: 5px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #c9c9c9;
+    outline: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important; }
+  #ng-chips-selector .option {
+    padding: 3px; }
+    #ng-chips-selector .option:hover, #ng-chips-selector .option .focused {
+      background-color: lightgray; }
+  #ng-chips-selector .rounded {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; }
